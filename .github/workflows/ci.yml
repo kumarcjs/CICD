@@ -19,4 +19,8 @@ jobs:
             -lm \
             -o motor_test
     - name: Run Tests
-      run: ./motor_test        
+      run: ./motor_test   
+    - name: Install cppcheck
+      run: sudo apt install cppcheck
+    - name: Run cppcheck
+      run: cppcheck src include     
