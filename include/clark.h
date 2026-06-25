@@ -1,0 +1,1 @@
+void clarke(float ia,float ib,float *alpha,float *beta);
