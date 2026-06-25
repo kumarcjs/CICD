@@ -7,7 +7,7 @@ int main()
     float alpha,beta;
     float d,q;
 
-    clarke(1.0f,0,0f,&alpha,&beta);
+    clarke(1.0f,0.0f,&alpha,&beta);
     assert(alpha==1.0f);
 
     park(alpha,beta,0.0f,&d,&q);
